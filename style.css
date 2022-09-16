@@ -1,0 +1,377 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-family: 'Time news roman';
+    color: navy;
+}
+
+span {
+    color: red;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #2f5167;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    color: lightsteelblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.main {
+    padding: 100px 80px 100px 80px;
+    background-image: url(Backgorund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.copy-container h1 {
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.copy-container h2 {
+    font-size: 40px;
+    color: whitesmoke;
+    padding-bottom: 45px;
+}
+
+.copy-container span {
+    color: navy;
+}
+
+.btn {
+    padding: 15px 25px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS';
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+  
+.signup {
+    background-color: #239b76;
+    text-decoration: none;
+}
+  
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+    text-decoration: none;
+}
+  
+.twitter {
+    background-color: #55acee;
+    text-decoration: none;
+}
+  
+.btn-wrapper {
+    margin: 20px 0;
+}
+  
+  
+.fa {
+    margin-right:5px;
+}
+
+.btn-wrapper p {
+    color: navy;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+* {
+    text-decoration: none;
+    margin: 5;
+    padding: 5;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body{
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    height: 100px;
+    font-family: "Trebuchet MS" ;
+    background-color: #edeef1;
+}
+
+.lesson-wrapper {
+    padding-bottom: 65px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #85C6FA;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #55585f;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    color: black
+  }
+
+  .heading p {
+    position: relative;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    transition: transform .2s;
+  }
+
+  .lesson-icon:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+  .lesson-icon:active {
+    position: relative;
+    top: 7px;
+  }
+
+  .lesson-icon p {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-size: larger;
+  }
+
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    color: #55585f;
+    padding-bottom: 200px;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+    color: black;
+  }
+
+  .heading h4 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10%;
+    padding-top: 45px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #0c5bd2;
+    cursor: pointer;
+    box-shadow: 0 7px #070c61;
+  }
+
+  .message:hover {
+    opacity: 0.8;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.contact-form {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.contact-form input, textarea {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightsteelblue;
+}
+
+.contact-submit {
+    background-color: lightsteelblue;
+    color: black;
+}
+
+footer {
+    background-color: #2f5167;
+    background-size: cover;
+    height: 490px;
+    width: 100%;
+    padding: 10px;
+    color: rgb(166, 188, 206);
+    font-family: 'Trebuchet MS';
+}
+
+h5 {
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: rgb(166, 188, 206);
+    font-size: 15px;
+    margin-left: 0;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    padding-right: 230px;
+}
+
+.info p{
+    color: rgb(166, 188, 206);;
+}
+
+.more {
+    width: 35%;
+    margin-right: 40px;
+}
+
+.more h5 {
+    margin-left: 20px;
+}
+
+.info {
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.info h5 {
+    margin-left: 40px;
+}
+
+.sosmed {
+    padding-top: 60px;
+    padding-right: 35px;
+    font-size: 30px;
+    width: 20%;
+}
+
+.footer-up {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 2px solid rgb(66, 86, 105);
+    height: 320px;
+    
+}
+
+h6 {
+    color: rgb(212, 209, 209);
+    text-align: center;
+    padding-top: 0;
+}
+
+.footer-b {
+    border-bottom: 2px solid rgb(66, 86, 105);
+    height: 90px;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: 420px;
+    padding-top: 1px;
+    height: 50px;
+}
+h6 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.footer-logo {
+    float: left;
+    padding-left: 10px;
+    padding-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.company-name {
+    font-size: 10px;
+    color: white;
+    margin-top: 50px;
+}
